@@ -33,6 +33,7 @@ function App() {
       email: badgeData?.recipient?.identity,
     },
     issueDate: new Date(badgeData?.issuedOn)?.toISOString(),
+    chain: badgeData?.signature?.anchors?.find((anchor) => anchor.type === "ETHData")?.chain,
     txId: badgeData?.signature?.anchors?.find((anchor) => anchor.type === "ETHData")?.sourceId,
     hash: badgeData?.signature?.targetHash,
   };

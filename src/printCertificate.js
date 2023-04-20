@@ -2,7 +2,7 @@ import React from "react";
 
 export default class PrintCertificate extends React.PureComponent {
   render() {
-    const { name, image, issuer, recipient, issueDate, txId, hash } = this.props.badge;
+    const { name, image, issuer, recipient, issueDate, chain, txId, hash } = this.props.badge;
 
     return (
       <div className="certificate">
@@ -22,6 +22,7 @@ export default class PrintCertificate extends React.PureComponent {
         </div>
         <div className="badgeInfo">
           <div className="issueDate">Issued on: {issueDate}</div>
+          <div className="chain">Chain: {chain}</div>
           <div className="transactionId">Tx ID: {txId}</div>
           <div className="transactionId">Hash: {hash}</div>
         </div>
