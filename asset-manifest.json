@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/badge-print/static/css/main.d503c059.css",
+    "main.js": "/badge-print/static/js/main.09d0556e.js",
+    "static/js/787.57c30855.chunk.js": "/badge-print/static/js/787.57c30855.chunk.js",
+    "index.html": "/badge-print/index.html",
+    "main.d503c059.css.map": "/badge-print/static/css/main.d503c059.css.map",
+    "main.09d0556e.js.map": "/badge-print/static/js/main.09d0556e.js.map",
+    "787.57c30855.chunk.js.map": "/badge-print/static/js/787.57c30855.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d503c059.css",
+    "static/js/main.09d0556e.js"
+  ]
+}
